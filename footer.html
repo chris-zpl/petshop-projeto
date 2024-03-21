@@ -1,0 +1,50 @@
+<script>
+  // Para obter a data atual
+  $(function(){
+      data = new Date();
+      ano = data.getFullYear();
+      document.getElementById("data_atual").innerHTML = ano;
+  });
+</script>
+<div class="estilo-footer">
+  <!-- Container para os links -->
+  <div class="container links-footer">
+    <div class="links">
+        <h4>Menu</h4>
+        <p><a href="index.html">Início</a></p>
+        <p><a href="produtos.html">Produtos</a></p>
+        <p><a href="servicos.html">Serviços</a></p>
+        <p><a href="construcao.html">Contato</a></p>
+    </div>
+    <div class="links">
+      <h4>Institucional</h4>
+      <p><a href="construcao.html">Quem somos</a></p>
+      <p><a href="construcao.html">Trabalhe conosco</a></p>
+      <p><a href="construcao.html">Canal de denúncias</a></p>
+      <p><a href="construcao.html">Mapa do site</a></p>
+    </div>
+    <div class="links">
+      <h4>Nossas políticas</h4>
+      <p><a href="construcao.html">Entrega e Frete</a></p>
+      <p><a href="construcao.html">Pagamento e Reembolso</a></p>
+      <p><a href="construcao.html">Trocas e Devolução</a></p>
+      <p><a href="construcao.html">Termos e Serviços</a></p>
+    </div>
+    <div class="links">
+      <h4>Ajuda</h4>
+      <p><a href="construcao.html">Atendimento</a></p>
+      <p><a href="construcao.html">Meus pedidos</a></p>
+      <p><a href="construcao.html">Meu cadastro</a></p>
+      <p><a href="construcao.html">Ouvidoria</a></p>
+    </div>
+    <div class="links">
+      <img src="assets/img/logo.png" class="d-inline-block align-top" alt="">
+    </div>
+  </div>
+</div>
+<!-- Container com copyright, abaixo dos links -->
+<div class="container">
+    <p class="info-footer">Copyright© <span id="data_atual"></span> Petshop Comércio e Participações S/A</p>
+    <p><a href="construcao.html">Privacidade</a> · <a href="construcao.html">Termos</a></p>
+</div>
+
